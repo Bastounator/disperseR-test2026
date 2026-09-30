@@ -505,7 +505,7 @@ run_fac <- function(x,
         shape_factor = 1,
         resuspension = 0,
         ddep_vel = 0.002)
-    } else if (species == 'pm2.5'{
+    } else if (species == 'pm2.5'){
     species_param <-
     data.table(
       name = 'pm2.5',
