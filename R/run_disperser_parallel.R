@@ -588,7 +588,7 @@ run_fac <- function(x,
     dispersion_model <-
       create_disp_model() %>%
       add_emissions(
-        rate = 1,
+        rate = subset$PM25/4,
         duration = subset$duration_emiss_hours,
         start_day = as.character(subset$start_day),
         start_hour = subset$start_hour
